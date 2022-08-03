@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+  <section class="app">
+    <header>
+      <h1>Drag n Drop</h1>
+    </header>
+    <div class="lists">
+      <div class="list">
+        <div class="list-item" draggable="true"></div>
+        <div class="list-item" draggable="true"></div>
+        <div class="list-item" draggable="true"></div>
+      </div>
+      <div class="list"></div>
+      <div class="list"></div>
+    </div>
+  </section>
+  <div class="create">
+    <p>make new element:</p>
+    <button class="btn-add" onclick="addNew"> Add New</button>
+  </div>
+
+
+
+  <script type="text/javascript">
+    let newElement = document.createElement('div');
+    console.dir(newElement);
+  </script>
+
+<script type="text/javascript" src="new.js">
+
+</script>
+</body>
+
+</html>

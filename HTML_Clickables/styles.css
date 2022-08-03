@@ -1,0 +1,96 @@
+
+img{
+  width: 60px;
+}
+button{
+background-color: #E9D5CA;
+border-radius: 50px;
+border-width: 0;
+box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+color: black;
+cursor: pointer;
+display: inline-block;
+font-family: Arial, sans-serif;
+font-size: 1em;
+height: 50px;
+width: 250px;
+padding: 0 25px;
+}
+
+body{
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: Arial, sans-serif;
+  background-color: #EEEEEE;
+  justify-content: center;
+  align-items: center;
+}
+.Header{
+  font-family: Arial sans-serif;
+  background-color: #363062;
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 50px;
+  color:  #E9D5CA;
+}
+.BigContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,300px);
+  padding: 0.5rem;
+  align-items:start;
+  width: 100%;
+  height: 100%;
+  grid-column-gap: 1.5rem
+}
+.container{
+  background-color: #363062;
+  border-radius: 10px;
+  padding:.5rem;
+}
+.draggable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E9D5CA;
+  color:black;
+  padding: 0.5rem;
+  min-height: 60px;
+  border-radius: 10px;
+}
+.MakeNew{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,300px);
+  position: absolute;
+  padding-left: 1300px;
+}
+.newElement{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: ##E9D5CA;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.userDescription{
+  text-align: center;
+}
+
+#hidden{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#hiddenDrop{
+  display: none;
+  border-radius: 10px;
+  padding:.5rem;
+  background-color: pink;
+}
+#playable{
+  width:200px;
+  margin-left: 300px;
+}
